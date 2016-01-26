@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OPAC 1.0\n"
 "Report-Msgid-Bugs-To: tecnologia@scielo.org\n"
-"POT-Creation-Date: 2016-01-18 12:18-0600\n"
+"POT-Creation-Date: 2016-01-26 16:26-0200\n"
 "PO-Revision-Date: 2016-01-07 14:56-0200\n"
 "Last-Translator: scielo <tecnologia@scielo.org>\n"
 "Language: en\n"
@@ -18,19 +18,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.2.0\n"
 
-#: app/__init__.py:89 app/templates/journal/includes/alternative_header.html:47
+#: app/__init__.py:89
+#, fuzzy
+msgid "Coleção"
+msgstr "of collection"
+
+#: app/__init__.py:90
+msgid "Financiador"
+msgstr ""
+
+#: app/__init__.py:91 app/templates/journal/includes/alternative_header.html:47
 msgid "Periódico"
 msgstr "Journal"
 
-#: app/__init__.py:90
+#: app/__init__.py:92
 msgid "Fascículo"
 msgstr "Issue"
 
-#: app/__init__.py:91
+#: app/__init__.py:93
 msgid "Artigo"
 msgstr "Article"
 
-#: app/__init__.py:92
+#: app/__init__.py:94
 msgid "Usuário"
 msgstr "User"
 
@@ -50,134 +59,134 @@ msgstr "Invalid user"
 msgid "Senha inválida"
 msgstr "Invalid password"
 
-#: app/admin/views.py:19
+#: app/admin/views.py:22
 msgid "Tem certeza que quer publicar os itens selecionados?"
 msgstr "Are you sure you want to publish the selected items?"
 
-#: app/admin/views.py:20
+#: app/admin/views.py:23
 msgid "Tem certeza que quer despublicar os itens selecionados?"
 msgstr "Are you sure you want to unpublish the selected items?"
 
-#: app/admin/views.py:21
+#: app/admin/views.py:24
 msgid "Tem certeza que quer reconstruir os artigos selecionados?"
 msgstr "Are you sure you want to rebuild the selected articles?"
 
-#: app/admin/views.py:22
+#: app/admin/views.py:25
 msgid ""
 "Tem certeza que quer enviar email de confirmação aos usuários "
 "selecionados?"
 msgstr "Are you sure you want to send confirmation email to the selected users?"
 
-#: app/admin/views.py:79 app/admin/views.py:92
+#: app/admin/views.py:82 app/admin/views.py:95
 msgid "Usuário não encontrado"
 msgstr "User not found"
 
-#: app/admin/views.py:82
+#: app/admin/views.py:85
 #, python-format
 msgid "Email: %(email)s confirmado com sucesso!"
 msgstr "Email: %(email)s successfully confirmed!"
 
-#: app/admin/views.py:98
+#: app/admin/views.py:101
 #, python-format
 msgid "Enviamos as instruções para recuperar a senha para: %(email)s"
 msgstr "Sent the instructions to recover the password to: %(email)s"
 
-#: app/admin/views.py:101
+#: app/admin/views.py:104
 #, python-format
 msgid ""
 "Ocorreu um erro no envio das instruções por email para: %(email)s. Erro: "
 "%(error)s"
 msgstr "Error sending the instructions via email to: %(email)s. Error: %(error)s"
 
-#: app/admin/views.py:127
+#: app/admin/views.py:130
 msgid "Nova senha salva com sucesso!!"
 msgstr "New password saved successfully!!"
 
-#: app/admin/views.py:152 app/admin/views.py:171
+#: app/admin/views.py:155 app/admin/views.py:174
 #, python-format
 msgid "Enviamos o email de confirmação para: %(email)s"
 msgstr "We sent a confirmation email to: %(email)s"
 
-#: app/admin/views.py:155 app/admin/views.py:174
+#: app/admin/views.py:158 app/admin/views.py:177
 #, python-format
 msgid "Ocorreu um erro no envio do email de confirmação para: %(email)s"
 msgstr "An error occurred while sending the confirmation email to: %(email)s"
 
-#: app/admin/views.py:162
+#: app/admin/views.py:165
 msgid "Enviar email de confirmação"
 msgstr "Send confirmation email"
 
-#: app/admin/views.py:178
+#: app/admin/views.py:181
 #, python-format
 msgid "%(count)s usuários foram notificados com sucesso!"
 msgstr "%(count)s users were successfully notified!"
 
-#: app/admin/views.py:181
+#: app/admin/views.py:184
 #, python-format
 msgid "Ocorreu um erro no envio do emails de confirmação. Erro: %(ex)s"
 msgstr "An error occurred while sending the confirmation emails. Error: %(ex)s"
 
-#: app/admin/views.py:225 app/admin/views.py:268 app/admin/views.py:328
+#: app/admin/views.py:252 app/admin/views.py:295 app/admin/views.py:355
 msgid "Publicar"
 msgstr "Publish"
 
-#: app/admin/views.py:230
+#: app/admin/views.py:257
 msgid "Periódico(s) publicado(s) com sucesso!!"
 msgstr "Journal(s) successfully published!!"
 
-#: app/admin/views.py:232
+#: app/admin/views.py:259
 msgid "Ocorreu um erro tentando publicar o(s) periódico(s)!!"
 msgstr "An error occurred trying to publish the journal(s)!!"
 
-#: app/admin/views.py:236 app/admin/views.py:281
+#: app/admin/views.py:263 app/admin/views.py:308
 msgid "Despublicar"
 msgstr "Unpublish"
 
-#: app/admin/views.py:241
+#: app/admin/views.py:268
 msgid "Periódico(s) despublicado com sucesso!!"
 msgstr "Journal(s) successfully unpublished!!"
 
-#: app/admin/views.py:244
+#: app/admin/views.py:271
 #, python-format
 msgid "Ocorreu um erro tentando publicar o(s) periódico(s)!!. Erro: %(ex)s"
 msgstr "An error occurred trying to publish the journal(s)!! Error %(ex)s"
 
-#: app/admin/views.py:273
+#: app/admin/views.py:300
 msgid "Fascículo(s) publicado(s) com sucesso!!"
 msgstr "Issue(s) successfully published!!"
 
-#: app/admin/views.py:276 app/admin/views.py:337
+#: app/admin/views.py:303 app/admin/views.py:364
 #, python-format
 msgid "Ocorreu um erro tentando publicar o(s) fascículo(s)!!. Erro: %(ex)s"
 msgstr "An error occurred trying to publish the issue(s)!! Error %(ex)s"
 
-#: app/admin/views.py:286
+#: app/admin/views.py:313
 msgid "Fascículo(s) despublicado(s) com sucesso!!"
 msgstr "Issue(s) successfully unpublished!!"
 
-#: app/admin/views.py:289 app/admin/views.py:350
+#: app/admin/views.py:316 app/admin/views.py:377
 #, python-format
 msgid "Ocorreu um erro tentando despublicar o(s) fascículo(s)!!. Erro: %(ex)s"
 msgstr "An error occurred trying to unpublish the issue(s)!! Error %(ex)s"
 
-#: app/admin/views.py:312
+#: app/admin/views.py:339
 msgid "Reconstruir HTML"
 msgstr "Rebuild HTML"
 
-#: app/admin/views.py:320
+#: app/admin/views.py:347
 msgid "Artigo(s) reconstruido com sucesso!!"
 msgstr "Article(s) successfully rebuilt!!"
 
-#: app/admin/views.py:323
+#: app/admin/views.py:350
 #, python-format
 msgid "Ocorreu um erro tentando reconstruir o(s) artigo(s)!!. Erro: %(ex)s"
 msgstr "An error occurred trying to rebuild the article(s)!! Error %(ex)s"
 
-#: app/admin/views.py:333
+#: app/admin/views.py:360
 msgid "Artigo(s) publicado com sucesso!!"
 msgstr "Article(s) successfully published!!"
 
-#: app/admin/views.py:347
+#: app/admin/views.py:374
 msgid "Artigo(s) despublicado com sucesso!!"
 msgstr "Article(s) successfully unpublished!!"
 
